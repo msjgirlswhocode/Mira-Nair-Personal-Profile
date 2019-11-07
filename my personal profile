@@ -1,0 +1,63 @@
+# Mira-Nair-Personal-Profile
+<!DOCTYPE html>
+<html>
+<head>
+<title> My bio </title>
+<link rel="stylesheet" href="mypage.css" type="text/css" />
+</head>
+<body>
+  <div class"nav">
+<ul>
+  <li> About Me </li>
+  <li> Activities </li>
+  <li> Pictures </li>
+
+
+
+
+</ul>
+    </div>
+  <div class="maincontainer">
+<div class="textcont">
+  <div class="imgcont">
+
+
+
+<h1> My bio </h1>
+<p id="para1">
+Hey, my name is Mira. I am 15 years old and I am learning how to code.
+</p>
+<p> I play basketball and enjoy listening to music. And I love <a href = "https://www.google.com/search?q=chow+chows+puppies&safe=strict&rlz=1C5CHFA_enUS833US838&sxsrf=ACYBGNQtTBJbZbSaqK2cR2pQDWm2jRdBAA:1568848331210&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjX0fO7v9vkAhXQtp4KHdHwB3wQ_AUIEigB&biw=1440&bih=732"> chow </a> chowsssss. </p>
+<img src="tenor.gif" height="150
+
+
+</div>
+</div>
+</div>
+</div>
+
+<input id ="nameofperson" type="text" placeholder="Enter your name here">
+
+<br>
+
+<button onclick =nameDisplay()> Click Me </button>
+
+<br>
+
+<div id = "name"> </div>
+
+</body>
+
+<script>
+
+  var space = document.getElementById("name");
+  var nameofperson.document.getElementById("nameofperson");
+
+  function nameDisplay(
+  {
+    space.innerHTML = document.write("Hello" + nameofperson.value);
+  }
+
+</script>
+  
+</html>
