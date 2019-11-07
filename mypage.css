@@ -1,0 +1,55 @@
+
+
+body{
+  font-family: courier;
+  background-image: url("skybackground.png");
+  background-size: cover;
+}
+
+.nav{
+  width:100;
+  float: center;
+  flex-direction: row;
+  display: inline-blocks;
+  text-align: center;
+}
+
+.nav ul li{
+
+display: inline-blocks;
+height: 120px;
+width: 120px;
+background: white;
+color: blue;
+float: center;
+opacity: .8;
+border-radius: 50%;
+color: DarkOliveGreen;
+font-size: 20px;
+
+}
+
+.nav ul li:hover{
+  opacity:1;
+}
+
+
+.textcont{
+
+}
+.imgcont{
+
+}
+.maincontainer{
+  display:flex;
+  background-color: white;
+  padding: 70px;
+  justify-content: center;
+
+}
+h1  {
+color: DeepPink;
+}
+ #para1 {
+   color: fuchsia
+ }
